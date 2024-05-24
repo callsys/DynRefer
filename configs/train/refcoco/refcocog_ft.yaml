@@ -1,0 +1,13 @@
+base: ["configs/base/runs/train.yaml",
+       "configs/base/models/dynrefer_flant5xl.yaml",
+       "configs/base/datasets/refcoco/refcocog.yaml",
+]
+
+model:
+  tag_thr: 0.76
+
+run:
+  max_epoch: 3
+  output_dir: "output/train/refcocog_ft"
+  eval_dataset_name: "refcocog"
+  init_lr: 1e-4

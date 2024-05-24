@@ -1,0 +1,8 @@
+base: ["configs/base/runs/eval.yaml",
+       "configs/base/models/dynrefer_flant5xl.yaml",
+       "configs/base/datasets/coco/coco.yaml",
+]
+
+run:
+  output_dir: "output/eval/coco"
+  eval_dataset_name: "coco"

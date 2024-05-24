@@ -1,0 +1,11 @@
+base: ["configs/base/runs/train.yaml",
+       "configs/base/models/dynrefer_flant5xl.yaml",
+       "configs/base/datasets/vg/vg1.2.yaml",
+]
+
+run:
+  max_epoch: 5
+  output_dir: "output/train/vg1.2_5e"
+  eval_dataset_name: "vg1.2"
+
+

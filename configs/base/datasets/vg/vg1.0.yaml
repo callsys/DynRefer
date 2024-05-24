@@ -1,0 +1,24 @@
+datasets:
+  vg1.0:
+    vis_processor:
+      train:
+        name: "dynrefer"
+        image_size: 224
+      eval:
+        name: "dynrefer"
+        image_size: 224
+    text_processor:
+      train:
+        name: "blip_caption"
+      eval:
+        name: "blip_caption"
+    build_info:
+      num_views: 3
+      with_seg: False
+      max_imgs: 1e7
+      max_objs: 1e7
+      obj_lvl: True
+      tag_list: "dynrefer/common/tagging/ram_tag_list.txt"
+      annotations:
+        train: [ "data/vg/dynrefer/vg1.0/train.json" ]
+        val: [ "data/vg/dynrefer/vg1.0/test.json" ]
