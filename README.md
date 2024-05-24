@@ -14,7 +14,7 @@ This is the official implementaion of paper 'DynRefer: Delving into Region-level
 
 
 <div align=center>
-<img src="assets/framework.png" width="50%">
+<img src="assets/framework.png" width="90%">
 </div>
 
 
