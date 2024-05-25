@@ -32,7 +32,6 @@ This is the official implementaion of paper '[***DynRefer: Delving into Region-l
 ## 2. Todo
 - [x] Release training and evaluation code
 - [ ] Release demo code
-- [ ] Integrating ControlCap
  
 ## 3. Introduction
 
