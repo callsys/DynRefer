@@ -8,5 +8,9 @@ pip install SceneGraphParser
 python -m spacy download en
 pip install textblob
 pip install DCNv4
+
+git clone https://github.com/callsys/DynRefer
+cd DynRefer
+unzip dynrefer/models/model_configs.zip
  ```
 
