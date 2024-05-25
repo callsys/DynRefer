@@ -3,7 +3,7 @@
 # DynRefer: Delving into Region-level Multi-modality Tasks via Dynamic Resolution
 </div>
 
-This is the official implementaion of paper 'DynRefer: Delving into Region-level Multi-modality Tasks via Dynamic Resolution'. This repository contains Pytorch training code, evaluation code.
+This is the official implementaion of paper '[DynRefer: Delving into Region-level Multi-modality Tasks via Dynamic Resolution](assets/DynRefer_arxiv.pdf)'. This repository contains Pytorch training code, evaluation code.
 
 <div align=center>
 
