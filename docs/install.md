@@ -4,6 +4,9 @@ git clone https://github.com/callsys/DynRefer
 cd DynRefer
 unzip dynrefer/models/model_configs.zip -d dynrefer/models/
 
+conda create -n dynrefer python=3.8 -y
+conda activate dynrefer
+
 bash scripts/setup.sh
  ```
 
