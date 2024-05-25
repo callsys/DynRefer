@@ -1,9 +1,10 @@
  | Data                        | Description                                                               | Download                                                                |
   | -------------------------------------- | ---------------------------------------------------------------------- | --------------------------------------------------------------------- |
-  | Visual Genome  | Visual Genome dataset, put images into `data/vg/images`  | [Official](https://homes.cs.washington.edu/~ranjay/visualgenome/api.html)   
-| MSCOCO 2014 | MSCOCO 2014 dataset, put images into `data/refcoco/images`       | [Official](https://cocodataset.org/#home) |
-| Converted annotations | Annotations for VG, RefCOCOg, OVAD, COCO, put `data/*` under `data/` | [OneDrive](https://mailsucasaccn-my.sharepoint.com/:f:/g/personal/zhaoyuzhong20_mails_ucas_ac_cn/EkLua8BRCwRKq_DE8r9SGYABZWrTS1Rr8VXJNMX5FMHa6Q?e=FX4Tgn) |
+  | Visual Genome  | Visual Genome dataset, put images under `DynRefer/data/vg/images`  | [Official](https://homes.cs.washington.edu/~ranjay/visualgenome/api.html)   
+| MSCOCO 2014 | MSCOCO 2014 dataset, put images under `DynRefer/data/refcoco/images`       | [Official](https://cocodataset.org/#home) |
+| Converted annotations | Annotations for VG, RefCOCOg, OVAD, COCO, put `data/*` under `DynRefer/data/` | [OneDrive](https://mailsucasaccn-my.sharepoint.com/:f:/g/personal/zhaoyuzhong20_mails_ucas_ac_cn/EkLua8BRCwRKq_DE8r9SGYABZWrTS1Rr8VXJNMX5FMHa6Q?e=FX4Tgn) |
 | CLIP weights | Weights of EVA CLIP text encoder | [Official](https://huggingface.co/BAAI/EVA/blob/main/eva_clip_psz14.pt) |
+| Pre-trained model weights and logs (Optional) | put `ckpts/*` under `DynRefer/ckpt/` | [Official](https://huggingface.co/BAAI/EVA/blob/main/eva_clip_psz14.pt) |
 
 
 To train and evaluate DynRefer, download the files in the table and arrange the files according to the file tree below.
