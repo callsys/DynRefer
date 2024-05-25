@@ -38,7 +38,7 @@ Region-level captioning is challenged by the caption degeneration issue, which r
 
 - [**Environment**](./docs/install.md)
 
-- [**Data**](./docs/data.md)
+- [**Dataset and checkpoints**](./docs/data.md)
 
 - [**Training and Evaluation**](./docs/train_and_eval.md)
 
