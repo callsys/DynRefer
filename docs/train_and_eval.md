@@ -11,15 +11,15 @@ bash scripts/train finetune_refcocog.sh ckpts/vg1.2_5e.pth
 
 
 ### 4.4 Evaluation
-Evaluating the dense captioning performance of DynRefer on VG V1.2.
+Evaluating the dense captioning performance of DynRefer on VG V1.2: (`mAP 47.6`).
 ```
 bash scripts/eval/eval_vg1.2_densecap.sh ckpts/vg1.2_5e.pth
 ```
-Evaluating the region-level captioning performance of DynRefer on VG : `(METEOR 21.2, CIDEr 190.5)`.
+Evaluating the region-level captioning performance of DynRefer on VG : (`METEOR 21.2, CIDEr 190.5`).
 ```
 bash scripts/eval/eval_vg_reg.sh ckpts/vg1.2_5e.pth
 ```
-Evaluating the region-level captioning performance of DynRefer on RefCOCOg.
+Evaluating the region-level captioning performance of DynRefer on RefCOCOg: (`METEOR 18.1, CIDEr 115.3`).
 ```
 bash scripts/eval/eval_refcocog_reg.sh ckpts/refcocog_ft.pth
 ```
