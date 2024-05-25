@@ -27,7 +27,7 @@ Evaluating the attribute detection performance of DynRefer on OVAD.
 ```
 bash scripts/eval/eval_ovad.sh ckpts/vg1.2_5e.pth
 ```
-Evaluating the region recognition performance of DynRefer on COCO.
+Evaluating the region recognition performance of DynRefer on COCO: (`Acc. 91.8`).
 ```
 bash scripts/eval/eval_coco.sh ckpts/vg1.2_5e.pth
 ```
