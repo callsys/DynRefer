@@ -3,9 +3,9 @@
   | Visual Genome  | Put images under `DynRefer/data/vg/images`  | [Official](https://homes.cs.washington.edu/~ranjay/visualgenome/api.html)   
 | MSCOCO 2014 | `ln -s coco2014/train2014/ data/refcoco/images/`       | [Official](https://cocodataset.org/#home) |
 | MSCOCO 2017 | `ln -s coco2017/val2017/ data/coco2017/images/`       | [Official](https://cocodataset.org/#home) |
-| EVA CLIP text encoder | `mv ckpts/eva_clip_psz14.pt ckpts/` | [Official](https://huggingface.co/BAAI/EVA/blob/main/eva_clip_psz14.pt) |
+| EVA CLIP text encoder | `mv <your_path>/ckpts/eva_clip_psz14.pt ckpts/` | [Official](https://huggingface.co/BAAI/EVA/blob/main/eva_clip_psz14.pt) |
 | Converted annotations | `unzip data.zip` | [OneDrive](https://mailsucasaccn-my.sharepoint.com/:f:/g/personal/zhaoyuzhong20_mails_ucas_ac_cn/EkLua8BRCwRKq_DE8r9SGYABZWrTS1Rr8VXJNMX5FMHa6Q?e=FX4Tgn) |
-| Pre-trained DynRefer weights and logs (Optional) | `mv ckpts/* ckpt/` | [OneDrive](https://mailsucasaccn-my.sharepoint.com/:f:/g/personal/zhaoyuzhong20_mails_ucas_ac_cn/EkLua8BRCwRKq_DE8r9SGYABZWrTS1Rr8VXJNMX5FMHa6Q?e=FX4Tgn) |
+| Pre-trained DynRefer weights and logs (Optional) | `mv <your_path>/ckpts/* ckpt/` | [OneDrive](https://mailsucasaccn-my.sharepoint.com/:f:/g/personal/zhaoyuzhong20_mails_ucas_ac_cn/EkLua8BRCwRKq_DE8r9SGYABZWrTS1Rr8VXJNMX5FMHa6Q?e=FX4Tgn) |
 
 
 To train and evaluate DynRefer, download the files in the table and arrange the files according to the file tree below.
