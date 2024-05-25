@@ -1,8 +1,8 @@
 conda create -n dynrefer python=3.8 -y && conda activate dynrefer
 pip install --upgrade pip
-pip install salesforce-lavis
-pip install scikit-learn
-pip install SceneGraphParser
+pip install salesforce-lavis==1.0.2
+pip install scikit-learn==1.3.2
+pip install SceneGraphParser==0.1.0
 python -m spacy download en
-pip install textblob
-pip install DCNv4
+pip install textblob==0.17.1
+pip install DCNv4==1.0.0.post2
