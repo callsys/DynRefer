@@ -23,7 +23,7 @@ This is the official implementaion of paper '[***DynRefer: Delving into Region-l
   - [1. Contents](#1-contents)
   - [2. Introduction](#2-introduction)
   - [3. Results](#3-results)
-  - [4. Code Usage](#4-get-start)
+  - [4. Code Usage](#4-code-usage)
   - [5. Contacts](#5-contacts)
   - [6. Acknowledgment](#6-acknowledgment)
   - [7. Citation](#7-citation)
@@ -33,6 +33,10 @@ This is the official implementaion of paper '[***DynRefer: Delving into Region-l
 Region-level captioning is challenged by the caption degeneration issue, which refers to that pre-trained multimodal models tend to predict the most frequent captions but miss the less frequent ones. In this study, we propose a controllable region-level captioning (ControlCap) approach, which introduces control words to a multimodal model to address the caption degeneration issue. In specific, ControlCap leverages a discriminative module to generate control words within the caption space to partition it to multiple sub-spaces. The multimodal model is constrained to generate captions within a few sub-spaces containing the control words, which increases the opportunity of hitting less frequent captions, alleviating the caption degeneration issue. Furthermore, interactive control words can be given by either a human or an expert model, which enables captioning beyond the training caption space, enhancing the model’s generalization ability. Extensive experiments on Visual Genome and RefCOCOg datasets show that ControlCap respectively improves the CIDEr score by 21.6 and 2.2, outperforming the state-of-the-arts by significant margins.
 
 ## 3. Results
+
+<div align=center>
+<img src="assets/result.png" width="90%">
+</div>
 
 ## 4. Code Usage
 
