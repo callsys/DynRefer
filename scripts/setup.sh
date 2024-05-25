@@ -1,4 +1,3 @@
-conda create -n dynrefer python=3.8 -y && conda activate dynrefer
 pip install --upgrade pip
 pip install salesforce-lavis==1.0.2
 pip install scikit-learn==1.3.2
