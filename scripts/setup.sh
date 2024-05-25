@@ -1,6 +1,6 @@
 pip install --upgrade pip
 pip install salesforce-lavis==1.0.2
-pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/cu121
+pip install torch==2.2.1 torchvision==0.17.1 torchaudio==2.2.1 --index-url https://download.pytorch.org/whl/cu121
 pip install scikit-learn==1.3.2
 pip install SceneGraphParser==0.1.0
 python -m spacy download en
