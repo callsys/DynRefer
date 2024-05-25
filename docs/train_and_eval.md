@@ -15,7 +15,7 @@ Evaluating the dense captioning performance of DynRefer on VG V1.2.
 ```
 bash scripts/eval/eval_vg1.2_densecap.sh ckpts/vg1.2_5e.pth
 ```
-Evaluating the referring expression generation performance of DynRefer on VG V1.2.
+Evaluating the region-level captioning performance of DynRefer on VG : `(METEOR 21.2, CIDEr 190.5)`.
 ```
 bash scripts/eval/eval_vg_reg.sh ckpts/vg1.2_5e.pth
 ```
