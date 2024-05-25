@@ -47,4 +47,3 @@ To train and evaluate DynRefer, download the files in the table and arrange the 
       |--train.py
       |--eval.py
 ```
-The annotations are converted using `data.sh`.
