@@ -23,7 +23,7 @@ This is the official implementaion of paper '[***DynRefer: Delving into Region-l
   - [1. Contents](#1-contents)
   - [2. Introduction](#2-introduction)
   - [3. Results](#3-results)
-  - [4. Start](#4-get-start)
+  - [4. Code Usage](#4-get-start)
   - [5. Contacts](#5-contacts)
   - [6. Acknowledgment](#6-acknowledgment)
   - [7. Citation](#7-citation)
@@ -34,7 +34,7 @@ Region-level captioning is challenged by the caption degeneration issue, which r
 
 ## 3. Results
 
-## 4. Start
+## 4. Code Usage
 
 - [**Installation**](./docs/install.md)
 
