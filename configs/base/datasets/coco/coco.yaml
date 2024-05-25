@@ -20,5 +20,5 @@ datasets:
       obj_lvl: True
       tag_list: "dynrefer/common/tagging/ram_tag_list.txt"
       annotations:
-        train: [ "data/coco2017/dynrefer/train.json" ]
+        train: [ ]
         val: [ "data/coco2017/dynrefer/val.json" ]
