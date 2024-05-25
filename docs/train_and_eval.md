@@ -2,11 +2,11 @@
 
 Training DynRefer on VG V1.2.
 ```
-bash scripts/train train_vg1.2.sh
+bash scripts/train/train_vg1.2.sh
 ```
 Finetuning DynRefer on RefCOCOg (Pretrained by VG V1.2).
 ```
-bash scripts/train finetune_refcocog.sh ckpts/vg1.2_5e.pth
+bash scripts/train/finetune_refcocog.sh ckpts/vg1.2_5e.pth
 ```
 
 
