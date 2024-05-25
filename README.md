@@ -36,7 +36,7 @@ Region-level captioning is challenged by the caption degeneration issue, which r
 
 ## 4. Code Usage
 
-- [**Installation**](./docs/install.md)
+- [**Environment**](./docs/install.md)
 
 - [**Data**](./docs/data.md)
 
