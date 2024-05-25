@@ -31,7 +31,6 @@ To train and evaluate DynRefer, download the files in the table and arrange the 
               |--000000116207.jpg
               |--000000116208.jpg
               ...
-           ...
       |--ckpts/
          |--eva_clip_psz14.pt
          |--vg1.2_5e.pth
