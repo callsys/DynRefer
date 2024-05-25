@@ -21,24 +21,30 @@ This is the official implementaion of paper '[***DynRefer: Delving into Region-l
 ## 1. Contents
 - DynRefer: Delving into Region-level Multi-modality Tasks via Dynamic Resolution
   - [1. Contents](#1-contents)
-  - [2. Introduction](#2-introduction)
-  - [3. Results](#3-results)
-  - [4. Code Usage](#4-code-usage)
-  - [5. Contacts](#5-contacts)
-  - [6. Acknowledgment](#6-acknowledgment)
-  - [7. Citation](#7-citation)
+  - [2. Todo](#2-todo)
+  - [3. Introduction](#3-introduction)
+  - [4. Results](#4-results)
+  - [5. Code Usage](#5-code-usage)
+  - [6. Contacts](#6-contacts)
+  - [7. Acknowledgment](#7-acknowledgment)
+  - [8. Citation](#8-citation)
  
-## 2. Introduction
+## 2. Todo
+- [v] Release training and evaluation code
+- [x] Release demo code
+- [x] Integrating ControlCap
+ 
+## 3. Introduction
 
 Region-level multi-modality methods can translate referred image regions to human preferred language descriptions. Unfortunately, most of existing methods using fixed visual inputs remain lacking the resolution adaptability to find out precise language descriptions. In this study, we propose a dynamic resolution approach, referred to as DynRefer, to pursue high-accuracy region-level referring through mimicking the resolution adaptability of human visual cognition. DynRefer first implements stochastic vision-language alignment. It aligns desired language descriptions of multi-modality tasks with images of stochastic resolution, which are constructed by nesting a set of views around the referred region. DynRefer then implements dynamic multi-modality referring, which is realized by selecting views based on image and language priors. This allows the visual information used for referring to better match human preferences, thereby improving the representational adaptability of region-level multi-modality models. Extensive experiments show that DynRefer brings mutual improvement upon tasks including region-level captioning, open-vocabulary region recognition and attribute detection. Last but not least, DynRefer achieves new state-of-the-art on multiple region-level multi-modality tasks using a single model.
 
-## 3. Results
+## 4. Results
 
 <div align=center>
 <img src="assets/result.png" width="90%">
 </div>
 
-## 4. Code Usage
+## 5. Code Usage
 
 - [**Environment**](./docs/install.md)
 
@@ -46,17 +52,17 @@ Region-level multi-modality methods can translate referred image regions to huma
 
 - [**Training and Evaluation**](./docs/train_and_eval.md)
 
-## 5. Contacts
+## 6. Contacts
 If you have any question about our work or this repository, please don't hesitate to contact us by emails or open an issue under this project.
 - [zhaoyuzhong20@mails.ucas.ac.cn](zhaoyuzhong20@mails.ucas.ac.cn)
 - [liufeng20@mails.ucas.ac.cn](liufeng20@mails.ucas.ac.cn)
 - [wanfang@ucas.ac.cn](wanfang@ucas.ac.cn)
 
-## 6. Acknowledgment
+## 7. Acknowledgment
 
 - Part of the code is borrowed from [LAVIS](https://github.com/salesforce/LAVIS), [GlaMM](https://github.com/mbzuai-oryx/groundingLMM), [Osprey](https://github.com/CircleRadon/Osprey/tree/main), [RAM](https://github.com/xinyu1205/recognize-anything), and [OVAD](), we sincerely thank them for their contributions to the community.
 
-## 7. Citation
+## 8. Citation
 
 ```text
 @misc{zhao2024controlcap,
