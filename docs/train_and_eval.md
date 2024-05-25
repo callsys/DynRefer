@@ -19,7 +19,7 @@ Evaluating the region-level captioning performance of DynRefer on VG : `(METEOR 
 ```
 bash scripts/eval/eval_vg_reg.sh ckpts/vg1.2_5e.pth
 ```
-Evaluating the referring expression generation performance of DynRefer on RefCOCOg.
+Evaluating the region-level captioning performance of DynRefer on RefCOCOg.
 ```
 bash scripts/eval/eval_refcocog_reg.sh ckpts/refcocog_ft.pth
 ```
