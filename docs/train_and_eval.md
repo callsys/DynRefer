@@ -23,7 +23,7 @@ Evaluating the region-level captioning performance of DynRefer on RefCOCOg : (`M
 ```
 bash scripts/eval/eval_refcocog_reg.sh ckpts/refcocog_ft.pth
 ```
-Evaluating the attribute detection performance of DynRefer on OVAD.
+Evaluating the attribute detection performance of DynRefer on OVAD : (`mAP 29.2`).
 ```
 bash scripts/eval/eval_ovad.sh ckpts/vg1.2_5e.pth
 ```
