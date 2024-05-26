@@ -6,7 +6,7 @@
 | EVA CLIP text encoder | `mv <your_path>/ckpts/eva_clip_psz14.pt ckpts/` | [Official](https://huggingface.co/BAAI/EVA/blob/main/eva_clip_psz14.pt) |
 | Converted annotations | `unzip data.zip` | [OneDrive](https://mailsucasaccn-my.sharepoint.com/:f:/g/personal/zhaoyuzhong20_mails_ucas_ac_cn/EkLua8BRCwRKq_DE8r9SGYABZWrTS1Rr8VXJNMX5FMHa6Q?e=FX4Tgn) |
 | Meteor Package | `unzip meteor.zip; mv meteor dynrefer/common/evaluation/` | [OneDrive](https://mailsucasaccn-my.sharepoint.com/:f:/g/personal/zhaoyuzhong20_mails_ucas_ac_cn/EkLua8BRCwRKq_DE8r9SGYABZWrTS1Rr8VXJNMX5FMHa6Q?e=FX4Tgn) |
-| Pre-trained DynRefer weights and logs (Optional) | `mv <your_path>/ckpts/* ckpt/` | [OneDrive](https://mailsucasaccn-my.sharepoint.com/:f:/g/personal/zhaoyuzhong20_mails_ucas_ac_cn/EkLua8BRCwRKq_DE8r9SGYABZWrTS1Rr8VXJNMX5FMHa6Q?e=FX4Tgn) |
+| Pre-trained DynRefer weights and logs (Optional) | `mv <your_path>/ckpts/* ckpts/` | [OneDrive](https://mailsucasaccn-my.sharepoint.com/:f:/g/personal/zhaoyuzhong20_mails_ucas_ac_cn/EkLua8BRCwRKq_DE8r9SGYABZWrTS1Rr8VXJNMX5FMHa6Q?e=FX4Tgn) |
 
 
 To train and evaluate DynRefer, download the files in the table and arrange the files according to the file tree below.
