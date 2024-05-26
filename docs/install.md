@@ -1,4 +1,4 @@
-We use `conda` to manage our dependencies. Our developers use `CUDA 12.1` to do experiments. Run the following commands to to setup the environment of DynRefer:
+We use `conda` to manage our dependencies. Our developers use `CUDA 12.1` to do experiments. Run the following commands to setup the environment of DynRefer:
  ```
 git clone https://github.com/callsys/DynRefer
 cd DynRefer
