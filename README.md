@@ -8,7 +8,7 @@ This is the official implementaion of paper '[***DynRefer: Delving into Region-l
 <div align=center>
 
 ![Python 3.8](https://img.shields.io/badge/Python-3.8-green.svg?style=plastic)
-![PyTorch 1.11](https://img.shields.io/badge/PyTorch-1.11-EE4C2C.svg?style=plastic)
+![PyTorch 2.1](https://img.shields.io/badge/PyTorch-2.1-EE4C2C.svg?style=plastic)
 [![LICENSE](https://img.shields.io/github/license/vasgaowei/ts-cam.svg)](LICENSE)
 </div>
 
