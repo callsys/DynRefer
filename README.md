@@ -64,6 +64,15 @@ If you have any question about our work or this repository, please don't hesitat
 ## 8. Citation
 
 ```text
+@misc{zhao2024dynrefer,
+      title={DynRefer: Delving into Region-level Multi-modality Tasks via Dynamic Resolution}, 
+      author={Yuzhong Zhao and Feng Liu and Yue Liu and Mingxiang Liao and Chen Gong and Qixiang Ye and Fang Wan},
+      year={2024},
+      eprint={2405.16071},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+
 @misc{zhao2024controlcap,
       title={ControlCap: Controllable Region-level Captioning}, 
       author={Yuzhong Zhao and Yue Liu and Zonghao Guo and Weijia Wu and Chen Gong and Fang Wan and Qixiang Ye},
