@@ -1,0 +1,22 @@
+base: ["configs/base/runs/eval.yaml",
+       "configs/base/models/dynrefer_flant5xl.yaml",
+       "configs/base/datasets/refcoco/refcocog.yaml",
+]
+
+model:
+  tag_thr: 0.76
+  max_txt_len: 32
+  num_return_sequences: 1
+  do_sample: False
+  num_beams: 5
+  max_new_tokens: 30
+  min_length: 1
+  length_penalty: 0
+  repetition_penalty: 1.5
+  top_p: 0.9
+  temperature: 1
+
+run:
+  output_dir: "output/eval/refcocog_reg"
+  eval_dataset_name: "refcocog"
+  load_ckpt_path: "final_ckpts/refcocog_ft.pth"
