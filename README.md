@@ -74,11 +74,13 @@ If you have any question about our work or this repository, please don't hesitat
       primaryClass={cs.CV}
 }
 
-@article{zhao2024controllable,
-  title={Controllable Dense Captioner with Multimodal Embedding Bridging},
+@inproceedings{zhao2024controlcap,
+  title={ControlCap: Controllable Region-Level Captioning},
   author={Zhao, Yuzhong and Liu, Yue and Guo, Zonghao and Wu, Weijia and Gong, Chen and Ye, Qixiang and Wan, Fang},
-  journal={arXiv preprint arXiv:2401.17910},
-  year={2024}
+  booktitle={European Conference on Computer Vision},
+  pages={21--38},
+  year={2024},
+  organization={Springer}
 }
 ```
 
