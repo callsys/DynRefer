@@ -14,7 +14,7 @@ This is the official implementaion of paper '[***DynRefer: Delving into Region-l
 
 
 <div align=center>
-<img src="assets/framework.png" width="90%">
+<img src="assets/dynrefer_github_demo1.png" width="90%">
 </div>
 
 
@@ -31,7 +31,8 @@ This is the official implementaion of paper '[***DynRefer: Delving into Region-l
  
 ## 2. Todo
 - [x] Release training and evaluation code
-- [ ] Release demo code
+- [x] Release demo code
+- [ ] Release training code of finetuning DynRefer for region-level reasoning
  
 ## 3. Introduction
 
@@ -40,7 +41,7 @@ Region-level multi-modality methods can translate referred image regions to huma
 ## 4. Results
 
 <div align=center>
-<img src="assets/result.png" width="90%">
+<img src="assets/dynrefer_github_demo2.png" width="90%">
 </div>
 
 ## 5. Code Usage
