@@ -41,7 +41,7 @@ Region-level multimodal methods can translate referred image regions to human pr
 ## 4. Results
 
 <div align=center>
-<img src="assets/dynrefer_github_demo2.png" width="90%">
+<img src="assets/dynrefer_github_demo2.png" width="98%">
 </div>
 
 ## 5. Code Usage
