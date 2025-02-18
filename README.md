@@ -1,9 +1,9 @@
 <div align=center>
   
-# DynRefer: Delving into Region-level Multi-modality Tasks via Dynamic Resolution
+# DynRefer: Delving into Region-level Multimodal Tasks via Dynamic Resolution
 </div>
 
-This is the official implementaion of paper '[***DynRefer: Delving into Region-level Multi-modality Tasks via Dynamic Resolution***](https://arxiv.org/pdf/2405.16071)'. This repository contains Pytorch training code, evaluation code.
+This is the official implementaion of paper '[***DynRefer: Delving into Region-level Multimodal Tasks via Dynamic Resolution***](https://arxiv.org/pdf/2405.16071)'. This repository contains Pytorch training code, evaluation code.
 
 <div align=center>
 
@@ -19,7 +19,7 @@ This is the official implementaion of paper '[***DynRefer: Delving into Region-l
 
 
 ## 1. Contents
-- DynRefer: Delving into Region-level Multi-modality Tasks via Dynamic Resolution
+- DynRefer: Delving into Region-level Multimodal Tasks via Dynamic Resolution
   - [1. Contents](#1-contents)
   - [2. Todo](#2-todo)
   - [3. Introduction](#3-introduction)
@@ -36,7 +36,7 @@ This is the official implementaion of paper '[***DynRefer: Delving into Region-l
  
 ## 3. Introduction
 
-Region-level multi-modality methods can translate referred image regions to human preferred language descriptions. Unfortunately, most of existing methods using fixed visual inputs remain lacking the resolution adaptability to find out precise language descriptions. In this study, we propose a dynamic resolution approach, referred to as DynRefer, to pursue high-accuracy region-level referring through mimicking the resolution adaptability of human visual cognition. DynRefer first implements stochastic vision-language alignment. It aligns desired language descriptions of multi-modality tasks with images of stochastic resolution, which are constructed by nesting a set of views around the referred region. DynRefer then implements dynamic multi-modality referring, which is realized by selecting views based on image and language priors. This allows the visual information used for referring to better match human preferences, thereby improving the representational adaptability of region-level multi-modality models. Extensive experiments show that DynRefer brings mutual improvement upon tasks including region-level captioning, open-vocabulary region recognition and attribute detection. Last but not least, DynRefer achieves new state-of-the-art on multiple region-level multi-modality tasks using a single model.
+Region-level multimodal methods can translate referred image regions to human preferred language descriptions. Unfortunately, most of existing methods using fixed visual inputs remain lacking the resolution adaptability to find out precise language descriptions. In this study, we propose a dynamic resolution approach, referred to as DynRefer, to pursue high-accuracy region-level referring through mimicking the resolution adaptability of human visual cognition. DynRefer first implements stochastic vision-language alignment. It aligns desired language descriptions of multimodal tasks with images of stochastic resolution, which are constructed by nesting a set of views around the referred region. DynRefer then implements dynamic multimodal referring, which is realized by selecting views based on image and language priors. This allows the visual information used for referring to better match human preferences, thereby improving the representational adaptability of region-level multimodal models. Extensive experiments show that DynRefer brings mutual improvement upon tasks including region-level captioning, open-vocabulary region recognition and attribute detection. Last but not least, DynRefer achieves new state-of-the-art on multiple region-level multimodal tasks using a single model.
 
 ## 4. Results
 
