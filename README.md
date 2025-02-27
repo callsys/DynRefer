@@ -3,7 +3,7 @@
 # DynRefer: Delving into Region-level Multimodal Tasks via Dynamic Resolution
 </div>
 
-This is the official implementaion of paper '[***DynRefer: Delving into Region-level Multimodal Tasks via Dynamic Resolution***](https://arxiv.org/pdf/2405.16071)', which is accepted in **CVPR 2025**. This repository contains Pytorch training code, evaluation code.
+This is the official implementaion of paper '[***DynRefer: Delving into Region-level Multimodal Tasks via Dynamic Resolution***](https://arxiv.org/pdf/2405.16071)', which is accepted in ***CVPR 2025***. This repository contains Pytorch training code, evaluation code.
 
 <div align=center>
 
